@@ -1,0 +1,126 @@
+{
+  "features": [
+    "Machine_Type",
+    "Installation_Year",
+    "Operational_Hours",
+    "Temperature_C",
+    "Vibration_mms",
+    "Sound_dB",
+    "Oil_Level_pct",
+    "Coolant_Level_pct",
+    "Power_Consumption_kW",
+    "Last_Maintenance_Days_Ago",
+    "Maintenance_History_Count",
+    "Failure_History_Count",
+    "AI_Supervision",
+    "Error_Codes_Last_30_Days",
+    "Machine_Age"
+  ],
+  "machine_types": [
+    "3D_Printer",
+    "AGV",
+    "Automated_Screwdriver",
+    "Boiler",
+    "CMM",
+    "CNC_Lathe",
+    "CNC_Mill",
+    "Carton_Former",
+    "Compressor",
+    "Conveyor_Belt",
+    "Crane",
+    "Dryer",
+    "Forklift_Electric",
+    "Furnace",
+    "Grinder",
+    "Heat_Exchanger",
+    "Hydraulic_Press",
+    "Industrial_Chiller",
+    "Injection_Molder",
+    "Labeler",
+    "Laser_Cutter",
+    "Mixer",
+    "Palletizer",
+    "Pick_and_Place",
+    "Press_Brake",
+    "Pump",
+    "Robot_Arm",
+    "Shrink_Wrapper",
+    "Shuttle_System",
+    "Vacuum_Packer",
+    "Valve_Controller",
+    "Vision_System",
+    "XRay_Inspector"
+  ],
+  "numeric": {
+    "Installation_Year": {
+      "min": 2000.0,
+      "max": 2026.0,
+      "median": 2013.0
+    },
+    "Operational_Hours": {
+      "min": 0.0,
+      "max": 100000.0,
+      "median": 49999.0
+    },
+    "Temperature_C": {
+      "min": -15.73,
+      "max": 125.12,
+      "median": 59.98
+    },
+    "Vibration_mms": {
+      "min": 0.0,
+      "max": 32.47,
+      "median": 10.14
+    },
+    "Sound_dB": {
+      "min": 23.65,
+      "max": 120.7,
+      "median": 75.01
+    },
+    "Oil_Level_pct": {
+      "min": 0.0,
+      "max": 100.0,
+      "median": 70.01
+    },
+    "Coolant_Level_pct": {
+      "min": 0.0,
+      "max": 100.0,
+      "median": 65.0
+    },
+    "Power_Consumption_kW": {
+      "min": 0.0,
+      "max": 510.7,
+      "median": 153.08
+    },
+    "Last_Maintenance_Days_Ago": {
+      "min": 0.0,
+      "max": 365.0,
+      "median": 182.0
+    },
+    "Maintenance_History_Count": {
+      "min": 0.0,
+      "max": 18.0,
+      "median": 5.0
+    },
+    "Failure_History_Count": {
+      "min": 0.0,
+      "max": 12.0,
+      "median": 2.0
+    },
+    "AI_Supervision": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "Error_Codes_Last_30_Days": {
+      "min": 0.0,
+      "max": 13.0,
+      "median": 3.0
+    },
+    "Machine_Age": {
+      "min": 0.0,
+      "max": 26.0,
+      "median": 13.0
+    }
+  }
+}
